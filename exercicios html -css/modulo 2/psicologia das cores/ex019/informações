@@ -1,0 +1,10 @@
+usamos seletores id, quando queremos fazer formatações dferentes para coisas que tem o mesmo nome
+
+/*em HTML é ID = em CSS  é #
+  em HTML é class = em CSS é .*/
+
+Diferença entre Id e CLass:
+dentro de um mesmo documento HTML só é possivel ter 
+um elemento com id. Mesmo que funcione!
+quando quero usar uma mesma cofiguração para dois elementos
+ultilizamos o: CLASS

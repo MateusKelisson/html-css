@@ -1,0 +1,54 @@
+modelo de caixas
+
+*aninhamento -- uma coisa dentro da outra 
+
+<h1> ola mundo </h1> ---> isso ja é uma caixa
+- ola mundo 
+
+toda caixa tem um tamanho: 
+altura : height
+largura : widht
+
+traçar uma linha em volta do conteudo -- borda
+border 
+para criar uma espaço entre a borda e o conteudo: 
+padding 
+
+espaço externo : 
+margin 
+
+contorno fora da borda:
+outline
+
+tipos de caixa
+
+box - level:
+ele se inicia em uma linha nova
+ocupa a largura total da tela 
+
+ex: <div> ; <h1> ... <h6> ; <P> ; <main> ; <header> ; <nav>
+<article> ; <aside> ; <footer> ; <form> ; <video>.
+
+inline-level:
+ele não quebra linha , continuando o conteudo.
+<span>; <a> ; <small> ; <strong> ; <em> ; <sup> - <sub> ; <label> ; <button>
+<input> ; <select>
+
+tags para semantica:
+
+<nav> : navegação
+<header> : cabeçalho
+<main> : conteudo principal 
+<section> : sesões dentro do site 
+<footer> : para informações do criador
+<article>: artigo 
+<aside> : assuntos dentro do artigo 
+
+
+
+
+
+
+
+
+

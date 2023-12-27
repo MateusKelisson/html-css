@@ -1,0 +1,106 @@
+Aula 1:
+Psicologia das cores: 
+
+A escolha que fazemos ao comprar um produto, está intrinssicamente relacionado a cor,seja dele, ou embalagem. 
+o mesmo se aplica a um site. 
+Psicologia das cores ...{}
+Cores são poderosas para Sites, Elas são emoções, e representam coisas dentro dos sites. 
+Empresas de tecnologia escolhem muito por azul. 
+
+HArmonia de cores:  
+
+-circulo cromatico: 12 cores principais 
+
+cores primarias: amarelo , vermelho , azul 
+
+cores secundarias:laranja , violeta , verde
+
+cores terciarias:
+mistura de de cores primarias com secundarias.
+amarelo esverdiado; amarelo alaranjado, vermelho alaranjado;
+vermelho arroxeado; azul arroxeado ; azul esverdiado . 
+
+temperatura de cores:
+
+cores frias(esquerda do circulo cromatico)
+cores quentes(direita do circulo cromatico)
+
+cores complementares:
+escolhe a cor que você quer, e pega a cor oposta a ela, no circulo cromatico. 
+
+cores analogas:
+cores que não tem muito contraste. escolhe a cor, e pega as cores vizinhas dela no circulo cromatico.
+
+cores analogas e uma complementar:
+escolhe duas analogas e uma complementar.
+
+cores analogas relacionadas:
+escolhe duas cores vizinhas, pula uma cor , e pega a outra
+
+cores intercaladas:
+escolhe uma cor, pula uma , escolhe a outra,pula denovo, e escolhe a outra
+
+cores triadicas:
+escolhe uma cor de referencia, pula três, escolhe mais uma, pula trÊs, e escolhe a outra. 
+
+cores em quadrado:
+escolhe uma cor , pula duas, escolhe, pula duas, escolhe,pula duas, escolhe
+
+cores tetradicas:
+escolhe qualquer cor, pega a cor complementar da escolhida, escolhe outra cor e escolhe a complementar dela.
+
+monocromia:
+escolhe uma cor, e modifica a saturação e o brilho
+
+site:
+adobe color . com 
+paletton.com
+
+------------------------------- ---------------------------------- --------------------------------- -------------------------------- --------------------------- -------
+
+Estudo basico de tipografia:
+tipografia -- monge copista -- ele copiava livros -- gutenberg inventou uma prensa que acelerava o processo.
+| tipo - impressão
+| grafia - escrita 
+
+formas de escrever transmite emoções; 
+sempre buscar fontes que combine com o contexto abordado;
+
+anatomia do tipo: 
+
+a letra X , é o ponto de partida para a criação de todas as fontes.Ela define a altura básica de todas as letras minusculas. 
+altura-x -- altura das letras minusculas
+alturas das maisculas 
+ascendente -- vazamento das letras minusculas , para cima
+descendende -- vazamento das letras para baixo
+corpo -- altura total
+
+geometrico:
+serifa (cria uma linha imaginaria, que guia o nosso olho e facilita a leitura das palavras);
+astes;
+filete (une duas aster, ou arcos);
+esporão;
+vértice;
+terminal;
+
+anatomicos:
+braço;
+prensa;
+pé;
+espinha;
+barriga;
+olho;
+orelha;
+cauda;
+
+categorias de fontes:
+serifadas;
+sans - serif -- sem serifa ;
+monoespaçada;
+handwriting;
+display; 
+
+
+
+
+

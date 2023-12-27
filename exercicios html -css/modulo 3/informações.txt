@@ -1,0 +1,20 @@
+Módulo 3; o que vamos aprender? 
+cáp 18 até o 21. 
+
+° hospedagem do site, ultilizando o git hub; 
+° Parte visual  do site : imagens de fundo, shot hands, centralização de imagens e efeitos paralax, criação do projeto cordel;
+° Trabalho com tabelas;
+
+cáp 18, git e git hub : 
+versionamento de software;
+
+Repositorio local/ remoto : local onde guardamos coisas.
+gerenciador de versões, ele quarda todas as versões do nosso site, software que mantém versões do meu código, dentro do meu computador: git 
+
+permitindo que o outro usuario veja o meu site, dominio e hospedagem, colocamos o arquivo do meu site no servidor, e o cliente entra no servidor e tem o acesso: git hub
+
+repositorio local : git na minha máquina
+repositorio remoto : git hub (push)
+
+| git hub | permite trabalhar em equipe . Atualizando o mesmo repositorio remoto. 
+

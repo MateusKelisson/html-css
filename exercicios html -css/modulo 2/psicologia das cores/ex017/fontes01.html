@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+           
+            /* 
+            medidas absolutas: 
+            cm,mm, in(polegada),px,pt,pc
+                
+            medias relativas:
+            em(relativo ao M maiusculo de uma fonte),ex(altura x),
+            rem, vw(largura da view port), vh(altura da view port),%
+
+            use o px ou  em
+
+            16px = 1em geralmente
+
+            */          
+
+            font-size: 16px;
+
+            /*
+            peso da fonte é: font-weight
+            lighter normal bold bolder 
+            */
+
+            font-weight: bold;
+
+            /*
+            estilo de fonte*/
+            font-style: italic;
+
+            text-decoration: underline;
+        
+        }
+
+        h1,h2{
+           
+        /*shorthand font
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 2em;
+            font-style: italic;
+        font style -> font weight -> font-size-> font-family*/
+        font: italic bolder , 3em , 'Times New Roman', sans-serif
+        }
+    </style>
+</head>
+<body>
+    <h1>Trablhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         A illum quasi rem! Optio deserunt cumque molestias, 
+         quaerat quos repellat odio fuga reprehenderit quae, 
+         incidunt assumenda
+         minima laudantium sed aperiam architecto? Lorem i
+         psum dolor sit amet consectetur adipisicing elit. 
+         Odio reprehenderit fugiat porro! Placeat ullam suscipit
+          quae repellendus repudiandae vel odio fuga doloremque?
+           Vel cum officiis maiores
+          illum at. Recusandae, deleniti!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Voluptate perspiciatis sunt ut ratione, eius incidunt esse
+          alias harum illum aliquam autem eum deserunt, distinctio dolorem.
+         Necessitatibus magnam libero vel recusandae!</p>
+
+    <h2>Subtitulo do exerício</h2>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+         Aspernatur eveniet fugit esse asperiores modi, facilis atque 
+         possimus culpa repellat doloremque, est laboriosam exercitationem
+          quo non 
+        pariatur quam temporibus accusantium nemo.</p>
+
+
+
+    
+</body>
+</html>

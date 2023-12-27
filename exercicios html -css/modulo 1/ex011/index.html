@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em html5</title>
+</head>
+<body>
+    <h1> Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários displays diferentes
+        ou simplesmenete aumente e diminua o tamanho do seu navegador.
+    </p>
+
+    <picture> <!--trabalhando com midias de tamanhos diferentes-->
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png"> <!--coloca a imagem de uma maneira flexivel, que se adapta a tamanho diferentes de telas-->
+        <source media="(max-width:1000px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexivel"> <!-- obs: a base é a foto padrão, acima dela são as modificações-->
+    </picture>
+    
+    <h1>reproduzindo aúdios</h1>
+    <p>Vamos aprender a colocar audios em html5</p>
+
+    <audio src="midia/audio.mp3" controls autoplay></audio> <!-- controls -- cria um crontole para o audi, (inicar/parar)-->
+
+    <p>outra maneira de reproduzir aúdio em html5</p>
+    
+    <audio preload="metadata" autoplay controls > <!--loop: repete a musica novamente-->
+        <source src="midia/audio.mp3" type="audio/mpeg">
+        <p>infelizmente o navegador não consegue reproduzir o aúdio.
+            <a href="midia/audio.mp3">clique aqui para baixar o arquivo</a>
+        </p>
+
+    </audio>
+
+</body>
+</html>

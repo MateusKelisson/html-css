@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags </title>
+    <style>
+
+        body{
+            font-family: sans-serif;
+            background-color: rgb(145, 145, 145);
+            margin:  0px;
+        }
+
+        header{
+            background-color: antiquewhite;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article > #ib{
+            background-color: rgb(111, 111, 111);
+
+        }
+
+        h1{
+            box-shadow: 3px 5px 8px black;
+        }
+
+        #bola{
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            background-color: antiquewhite;
+            border-radius: 50px;
+        }
+
+
+        nav{
+            background-color: rgb(122, 133, 129);
+            padding: 5px;
+            box-shadow: 3px 3px 10px 5px rgba(0, 0, 0, 0.488);
+            border-radius: 1px 1px 1px;
+
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            color: rgba(0, 0, 255, 0.296);
+        }
+    
+
+        article{
+            background-color: rgb(145, 145, 145);
+        }
+        
+
+        main{
+            background-color: antiquewhite;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 30px;
+            box-shadow: 5px 5px 5px black;
+        }
+
+        article > aside{
+            background-color: rgb(145, 145, 145)
+        }
+
+        footer{
+            background-color: black;
+            color: antiquewhite;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        article > h2{
+            text-align: center;
+        }
+
+        header > h1{
+            text-align: center;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>noticia sobre o brasil</h2>
+                <aside>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Cumque voluptas libero odio quas. Obcaecati, magnam. 
+                         Impedit vero laboriosam iusto, animi neque rem, minus 
+                        aliquam dolor officia voluptatum rerum ullam fuga.</p>
+                    
+                </aside>
+                <aside id="ib">
+                    <p>Escrito por: jose</p>
+                </aside>
+            </article>
+            <article></article>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido por: Mateus</p>
+    </footer>
+    <div id="bola"></div>
+    
+</body>
+</html>
