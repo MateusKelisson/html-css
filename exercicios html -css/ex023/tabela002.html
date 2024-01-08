@@ -6,6 +6,13 @@
     <title>Tabelas</title>
 
     <style>
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightblue;
+        }
         body{
             font-family: Arial, Helvetica, sans-serif;
         }
@@ -13,6 +20,8 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+            margin: auto;
         }
 
         td , th{
@@ -20,15 +29,25 @@
             padding: 10px;
         }
 
-        thead,tfoot{
-            background-color: rgb(185, 109, 9);
+        thead,tfoot{ 
+            background-color: rgba(0, 0, 255, 0.458);
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color: rgb(0, 145, 255);
+        }
+
+        tbody tr:nth-child(2n){ /*define o efeito zebrado, e de quantas linhas vocÊ quer*/
+            background-color: rgb(0, 189, 189);
         }
 
     </style>
 
 </head>
 <body>
-    <h1>Uso de Tabelas Grandes</h1>
+    <h1 style="text-align: center;">Uso de Tabelas Grandes</h1>
 
     <!--anatomia para tabelas grandes
         Table
@@ -38,14 +57,14 @@
                     tr , td , th
                     tfoot
                         tr , td , th-->
-
     
     <table>
+        <caption>População das unidades federativas</caption>
 
         <thead> 
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 80 px";>População</th>
             </tr>
 
         </thead>
@@ -166,7 +185,7 @@
         </tbody>
 
         <tfoot>
-            <th>Total de habitantes</th>
+            <th scope="row">Total de habitantes</th>
             <td>203 062 512</td>
 
         </tfoot>
