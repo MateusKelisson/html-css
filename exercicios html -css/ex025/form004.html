@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h1>Teste formulario</h1>
+
+    <form action="cadastro.php" method="get">
+
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p>
+                <label for="inome">nome</label>
+                <input type="text" name="nome" id="inome" placeholder="digite seu nome aqui.">
+            </p>
+            <p>
+                <label for="imail">email:</label>
+                <input type="email" name="email" id="iemail" autocomplete="email" required >
+            </p>
+            <p>
+                <!--Estudar sobre regEX
+                faça a validação e js ou php-->
+                <label for="ifone">telefone:</label>
+                <input type="tel" name="telefone" id="ifone" autocomplete="tel-national" placeholder="(xx) xxxx-xxxx" required pattern="^\(\d{2}\)[0-9]{4}-[0-9]{4}$">
+            </p>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+
+
+
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
