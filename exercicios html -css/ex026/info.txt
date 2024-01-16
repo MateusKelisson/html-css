@@ -1,0 +1,1 @@
+media queries --> permite a adaptação do conteúdo de um site para dferentes tipos ,formatos e tamanhos de telas/impressora.
